@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepna A | Data Analyst Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #F5F1E8;
+            color: #292522;
+            line-height: 1.6;
+        }
+
+        nav {
+            background: #292522;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav h2 {
+            color: #F5F1E8;
+        }
+
+        nav a {
+            color: #F5F1E8;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #C46B4F;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            padding: 70px 8%;
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            color: #4A3428;
+            margin-bottom: 15px;
+        }
+
+        .hero h2 {
+            font-size: 28px;
+            color: #C46B4F;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 19px;
+            max-width: 650px;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #C46B4F;
+            color: white;
+            padding: 13px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #4A3428;
+        }
+
+        section {
+            padding: 80px 8%;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 36px;
+            color: #4A3428;
+            margin-bottom: 40px;
+        }
+
+        .about {
+            max-width: 850px;
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .skill {
+            background: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            font-weight: bold;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .project-card h3 {
+            color: #4A3428;
+            margin-bottom: 12px;
+        }
+
+        .project-card p {
+            margin-bottom: 15px;
+        }
+
+        .tools {
+            color: #C46B4F;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #292522;
+            color: #F5F1E8;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 700px) {
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2>Deepna A</h2>
+
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Deepna A</h1>
+
+            <h2>Aspiring Data Analyst</h2>
+
+            <p>
+                I create interactive dashboards and transform data
+                into clear, meaningful insights using Excel, Tableau,
+                Power BI and data visualization techniques.
+            </p>
+
+            <a href="#projects" class="button">View My Projects</a>
+            <a href="#contact" class="button">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="about">
+            <p>
+                I am developing my skills in data analytics, dashboard
+                development and data visualization. I enjoy working with
+                data to identify trends, create meaningful reports and
+                present insights through interactive dashboards.
+            </p>
+
+            <br>
+
+            <p>
+                My portfolio includes practical projects created using
+                Excel, Tableau and Power BI.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <div class="skill">Microsoft Excel</div>
+            <div class="skill">Tableau</div>
+            <div class="skill">Power BI</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Data Cleaning</div>
+            <div class="skill">Data Analysis</div>
+            <div class="skill">Data Visualization</div>
+            <div class="skill">Dashboard Development</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects">
+
+            <div class="project-card">
+                <h3>Sales Trend & Performance Analysis</h3>
+
+                <div class="tools">
+                    Tableau | Data Visualization
+                </div>
+
+                <p>
+                    Interactive dashboard analysing sales performance,
+                    trends, categories and geographical sales data.
+                </p>
+
+                <a href="#" class="button">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Student Social Media Analysis</h3>
+
+                <div class="tools">
+                    Excel | Data Analysis
+                </div>
+
+                <p>
+                    Dashboard analysing student social media usage,
+                    behaviour and related patterns using Excel.
+                </p>
+
+                <a href="#" class="button">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Power BI Dashboard</h3>
+
+                <div class="tools">
+                    Power BI | Business Intelligence
+                </div>
+
+                <p>
+                    Business intelligence dashboard designed to
+                    transform data into interactive visual insights.
+                </p>
+
+                <a href="#" class="button">View Project</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact">
+            <p>
+                Interested in working together or discussing a data
+                analytics opportunity?
+            </p>
+
+            <a href="#" class="button">LinkedIn</a>
+            <a href="mailto:your-email@example.com" class="button">
+                Email Me
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Deepna A | Data Analyst Portfolio</p>
+    </footer>
+
+</body>
+</html>
